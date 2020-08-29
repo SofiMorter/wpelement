@@ -35,40 +35,34 @@ Template Name: Главная
         <h2 id="h2">Использование наших материалов в стилях интерьера</h2>
         <div class="grid-wrapper" id="grid-wrapper">
             <div class="material-grid-item">
-                <img src="https://element1.kz/wp-content/uploads/blog-item.jpg" class="" id="materialsImg">
-                <div class="label-top">Velature Vernicci</div>
-                <div class="label-bottom">Наносится на подготовленные стены без труда. Готовое покрытие можно купить в
-                    нашем салоне.</div>
+                <img src="<?php echo get_field('style_img1')['url']; ?>" class="" id="materialsImg">
+                <div class="label-top"><?php the_field('style1'); ?></div>
+                <div class="label-bottom"><?php the_field('style_desc1'); ?></div>
             </div>
             <div class="material-grid-item">
-                <img src="https://element1.kz/wp-content/uploads/blog-item.jpg" class="" id="materialsImg">
-                <div class="label-top">Velature Vernicci</div>
-                <div class="label-bottom">Наносится на подготовленные стены без труда. Готовое покрытие можно купить в
-                    нашем салоне.</div>
+                <img src="<?php echo get_field('style_img2')['url']; ?>" class="" id="materialsImg">
+                <div class="label-top"><?php the_field('style2'); ?></div>
+                <div class="label-bottom"><?php the_field('style_desc2'); ?></div>
             </div>
             <div class="material-grid-item">
-                <img src="https://element1.kz/wp-content/uploads/blog-item.jpg" class="" id="materialsImg">
-                <div class="label-top">Velature Vernicci</div>
-                <div class="label-bottom">Наносится на подготовленные стены без труда. Готовое покрытие можно купить в
-                    нашем салоне.</div>
+                <img src="<?php echo get_field('style_img3')['url']; ?>" class="" id="materialsImg">
+                <div class="label-top"><?php the_field('style3'); ?></div>
+                <div class="label-bottom"><?php the_field('style_desc3'); ?></div>
             </div>
             <div class="material-grid-item">
-                <img src="https://element1.kz/wp-content/uploads/blog-item.jpg" class="" id="materialsImg">
-                <div class="label-top">Velature Vernicci</div>
-                <div class="label-bottom">Наносится на подготовленные стены без труда. Готовое покрытие можно купить в
-                    нашем салоне.</div>
+                <img src="<?php echo get_field('style_img4')['url']; ?>" class="" id="materialsImg">
+                <div class="label-top"><?php the_field('style4'); ?></div>
+                <div class="label-bottom"><?php the_field('style_desc4'); ?></div>
             </div>
             <div class="material-grid-item">
-                <img src="https://element1.kz/wp-content/uploads/blog-item.jpg" class="" id="materialsImg">
-                <div class="label-top">Velature Vernicci</div>
-                <div class="label-bottom">Наносится на подготовленные стены без труда. Готовое покрытие можно купить в
-                    нашем салоне.</div>
+                <img src="<?php echo get_field('style_img5')['url']; ?>" class="" id="materialsImg">
+                <div class="label-top"><?php the_field('style5'); ?></div>
+                <div class="label-bottom"><?php the_field('style_desc5'); ?></div>
             </div>
             <div class="material-grid-item">
-                <img src="https://element1.kz/wp-content/uploads/blog-item.jpg" class="" id="materialsImg">
-                <div class="label-top">Velature Vernicci</div>
-                <div class="label-bottom">Наносится на подготовленные стены без труда. Готовое покрытие можно купить в
-                    нашем салоне.</div>
+                <img src="<?php echo get_field('style_img6')['url']; ?>" class="" id="materialsImg">
+                <div class="label-top"><?php the_field('style6'); ?></div>
+                <div class="label-bottom"><?php the_field('style_desc6'); ?></div>
             </div>
             <div style="background: url(https://element1.kz/wp-content/uploads/blog-item.jpg);" class="lightbox"></div>
             <div style="background: url(https://element1.kz/wp-content/uploads/blog-item.jpg);" class="lightbox"></div>
