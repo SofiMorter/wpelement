@@ -42,7 +42,8 @@ a {
 }
 
 .bg-gray {
-     background-color: gray;
+     padding: 50px 0;
+    background: rgba(154, 146, 125, 0.12);
 }
 
 .block-bg {
@@ -398,9 +399,10 @@ nav {
      outline: none;
      width: 11.2888rem;
      height: 2.4375rem;
-     background: #ede9e0;
+     background: #9A927D;
      border-radius: 1.875rem;
      font-weight: 500;
+     color: white;
      font-size: 0.75rem;
      line-height: 0.9375rem;
      text-transform: uppercase;
