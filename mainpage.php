@@ -39,7 +39,7 @@ Template Name: Главная
             <img src="https://element1.kz/wp-content/uploads/photo-1501127122-f385ca6ddd9d-scaled.jpg" alt="">
         </div>
         <div>
-        <?php the_field('image1'); ?></div>
+        <img src="<?php the_field('image1'); ?>" /></div>
     </section>
 </div>
 <div class="container1440">
