@@ -235,6 +235,7 @@ nav {
      width: 300px;
      height: 100%;
      cursor: pointer;
+     object-fit: cover;
 }
 
 .lightbox {
