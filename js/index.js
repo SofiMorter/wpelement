@@ -63,4 +63,3 @@ for (let lightbox of lightboxes) {
           lightbox.classList.toggle('lightbox-active');
      });
 }
-
