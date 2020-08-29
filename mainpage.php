@@ -97,11 +97,7 @@ Template Name: Главная
                         <input type="radio" id="tab1" name="qwe" checked />
                         <label for="tab1" class="tab-title">Декоративные штукатурки</label>
                         <div class="tab-content">
-                            <p>
-                                Славятся своими широкими возможностями. Можно красить в разные цвета, делать эффекты чем
-                                угодно - от валика до ножки стула.
-                                Прекрасно ложатся на подготовленную поверхность.
-                            </p>
+                            <p><?php the_field('imitation1'); ?></p>
                         </div>
                     </div>
                     <!-- /.tab -->
@@ -110,10 +106,7 @@ Template Name: Главная
                         <input type="radio" id="tab2" name="qwe" />
                         <label for="tab2" class="tab-title">Венецианские штукатурки</label>
                         <div class="tab-content">
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Далеко-далеко за словесными горами в .</li>
-                            </ul>
+                            <p><?php the_field('imitation2'); ?></p>
                         </div>
                     </div>
                     <!-- /.tab -->
@@ -122,10 +115,7 @@ Template Name: Главная
                         <input type="radio" id="tab3" name="qwe" />
                         <label for="tab3" class="tab-title">Декоративные краски</label>
                         <div class="tab-content">
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Далеко-далеко за словесными горами в .</li>
-                            </ul>
+                           <p><?php the_field('imitation3'); ?></p>
                         </div>
                     </div>
                     <!-- /.tab -->
@@ -134,10 +124,7 @@ Template Name: Главная
                         <input type="radio" id="tab4" name="qwe" />
                         <label for="tab4" class="tab-title">Фасадные штукатурки</label>
                         <div class="tab-content">
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Далеко-далеко за словесными горами в .</li>
-                            </ul>
+                            <p><?php the_field('imitation4'); ?></p>
                         </div>
                     </div>
                     <!-- /.tab -->
@@ -146,10 +133,7 @@ Template Name: Главная
                         <input type="radio" id="tab5" name="qwe" />
                         <label for="tab5" class="tab-title">Паркет из России</label>
                         <div class="tab-content">
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Далеко-далеко за словесными горами в .</li>
-                            </ul>
+                            <p><?php the_field('imitation5'); ?></p>
                         </div>
                     </div>
                     <!-- /.tab -->
@@ -158,10 +142,7 @@ Template Name: Главная
                         <input type="radio" id="tab6" name="qwe" />
                         <label for="tab6" class="tab-title">Выключатели Jung</label>
                         <div class="tab-content">
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Далеко-далеко за словесными горами в .</li>
-                            </ul>
+                            <p><?php the_field('imitation6'); ?></p>
                         </div>
                     </div>
                     <!-- /.tab -->
@@ -170,10 +151,7 @@ Template Name: Главная
                         <input type="radio" id="tab7" name="qwe" />
                         <label for="tab7" class="tab-title">Каменный шпон</label>
                         <div class="tab-content">
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Далеко-далеко за словесными горами в .</li>
-                            </ul>
+                            <p><?php the_field('imitation7'); ?></p>
                         </div>
                     </div>
                     <!-- /.tab -->
