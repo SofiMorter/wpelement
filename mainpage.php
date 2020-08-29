@@ -62,12 +62,12 @@ Template Name: Главная
                 <div class="label-top"><?php the_field('style6'); ?></div>
                 <div class="label-bottom"><?php the_field('style_desc6'); ?></div>
             </div>
-            <div style="background: url(https://element1.kz/wp-content/uploads/blog-item.jpg);" class="lightbox"></div>
-            <div style="background: url(https://element1.kz/wp-content/uploads/blog-item.jpg);" class="lightbox"></div>
-            <div style="background: url(https://element1.kz/wp-content/uploads/blog-item.jpg);" class="lightbox"></div>
-            <div style="background: url(https://element1.kz/wp-content/uploads/blog-item.jpg);" class="lightbox"></div>
-            <div style="background: url(https://element1.kz/wp-content/uploads/blog-item.jpg);" class="lightbox"></div>
-            <div style="background: url(https://element1.kz/wp-content/uploads/blog-item.jpg);" class="lightbox"></div>
+            <div style="background: url(<?php echo get_field('style_img1')['url']; ?>);" class="lightbox"></div>
+            <div style="background: url(<?php echo get_field('style_img2')['url']; ?>);" class="lightbox"></div>
+            <div style="background: url(<?php echo get_field('style_img3')['url']; ?>);" class="lightbox"></div>
+            <div style="background: url(<?php echo get_field('style_img4')['url']; ?>);" class="lightbox"></div>
+            <div style="background: url(<?php echo get_field('style_img5')['url']; ?>);" class="lightbox"></div>
+            <div style="background: url(<?php echo get_field('style_img6')['url']; ?>);" class="lightbox"></div>
         </div>
     </section>
 </div>
@@ -163,40 +163,40 @@ Template Name: Главная
                 <!-- Правая часть -->
 
                 <div class="item-grid">
-                    <div class="item">
+                    <div class="item" style="background-image: url(<?php echo get_field('imitation_img1')['url']; ?>)">
                         <div class="item-label">Бетон</div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="background-image: url(<?php echo get_field('imitation_img2')['url']; ?>)">
                         <div class="item-label">Травертин</div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="background-image: url(<?php echo get_field('imitation_img3')['url']; ?>)">
                         <div class="item-label">Камень</div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="background-image: url(<?php echo get_field('imitation_img4')['url']; ?>)">
                         <div class="item-label">Металл</div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="background-image: url(<?php echo get_field('imitation_img5')['url']; ?>)">
                         <div class="item-label">Старина</div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="background-image: url(<?php echo get_field('imitation_img6')['url']; ?>)">
                         <div class="item-label">Дерево</div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="background-image: url(<?php echo get_field('imitation_img7')['url']; ?>)">
                         <div class="item-label">Рельеф</div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="background-image: url(<?php echo get_field('imitation_img8')['url']; ?>)">
                         <div class="item-label">Кожа</div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="background-image: url(<?php echo get_field('imitation_img9')['url']; ?>)">
                         <div class="item-label">Бархат</div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="background-image: url(<?php echo get_field('imitation_img10')['url']; ?>)">
                         <div class="item-label">Шелк</div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="background-image: url(<?php echo get_field('imitation_img11')['url']; ?>)">
                         <div class="item-label">Перламутр</div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="background-image: url(<?php echo get_field('imitation_img12')['url']; ?>)">
                         <div class="item-label">Лофт</div>
                     </div>
                 </div>
