@@ -22,10 +22,17 @@ Template Name: Главная
         </div>
         <div class="fotorama interior-block" data-width="1200" data-height="650" data-autoplay="true" data-loop="true"
             data-arrows="false" data-click="true" data-swipe="true" nav: 'false' data-fit="cover">
-            
+            <?php if( get_field('image1') ): ?>
     <img src="<?php the_field('image1'); ?>" />
+<?php endif; ?>
+
+<?php if( get_field('image2') ): ?>
     <img src="<?php the_field('image2'); ?>" />
+<?php endif; ?>
+
+<?php if( get_field('image3') ): ?>
     <img src="<?php the_field('image3'); ?>" />
+<?php endif; ?>
 
 
             <img src="https://element1.kz/wp-content/uploads/photo-1578503439976-f0c1f7daf1cd-scaled.jpg" alt="">
