@@ -28,26 +28,26 @@ Template Name: Пространства
           <div class="space-grid_row">
             <div class="space-grid_row-big">
               <a href="http://#" class="space-grid_a"> 
-                <div class="box-img" style="background-image: url(https://element1.kz/wp-content/uploads/photo-1586023492125-27b2c045efd7.jpg);">
+                <div class="box-img" style="background-image: url(<?php echo get_field('spaces_img1')['url']; ?>);">
                 <span>Гостиная</span></div>
               </a>
             </div>
             <div class="space-grid_row-triple">
               <div class="space-grid_row-triple_big">
                 <a href="http://#" class="space-grid_a">
-                  <div class="box-img" style="background-image: url(https://element1.kz/wp-content/uploads/photo-1560185008-186576e0f1e2.jpg);">
+                  <div class="box-img" style="background-image: url(<?php echo get_field('spaces_img2')['url']; ?>);">
                 <span>Комната для взрослых</span></div>
                 </a>
               </div>
               <div class="space-grid_row-triple_smol">
                 <a href="http://#" class="space-grid_a">
-                  <div class="box-img" style="background-image: url(https://element1.kz/wp-content/uploads/photo-1584467331225-a18e17c70b38-scaled.jpg);">
+                  <div class="box-img" style="background-image: url(<?php echo get_field('spaces_img3')['url']; ?>);">
                 <span>Детская комната</span></div>
                 </a>
               </div>
               <div class="space-grid_row-triple_smol">
                 <a href="http://#" class="space-grid_a">
-                  <div class="box-img" style="background-image: url(https://element1.kz/wp-content/uploads/photo-1501127122-f385ca6ddd9d-scaled.jpg);">
+                  <div class="box-img" style="background-image: url(<?php echo get_field('spaces_img4')['url']; ?>);">
                 <span>Ванная комната</span></div>
                 </a>
               </div>
@@ -55,7 +55,7 @@ Template Name: Пространства
           </div>
           <div class="space-grid_row">
             <a href="http://#" class="space-grid_a">
-              <div class="box-img" style="background-image: url(https://element1.kz/wp-content/uploads/photo-1578503439976-f0c1f7daf1cd-scaled.jpg);">
+              <div class="box-img" style="background-image: url(<?php echo get_field('spaces_img5')['url']; ?>);">
             <span>Кухня</span></div>
             </a>
           </div>
@@ -64,26 +64,26 @@ Template Name: Пространства
             <div class="space-grid_row-triple">
               <div class="space-grid_row-triple_big">
                 <a href="http://#" class="space-grid_a">
-                  <div class="box-img" style="background-image: url(https://element1.kz/wp-content/uploads/photo-1584467331242-9628400008cc-scaled.jpg);">
+                  <div class="box-img" style="background-image: url(<?php echo get_field('spaces_img6')['url']; ?>);">
                 <span>Гараж</span></div>
                 </a>
               </div>
               <div class="space-grid_row-triple_smol">
                 <a href="http://#" class="space-grid_a">
-                  <div class="box-img" style="background-image: url(https://element1.kz/wp-content/uploads/photo-1537301636683-5ac98e0466a2-scaled.jpg);">
+                  <div class="box-img" style="background-image: url(<?php echo get_field('spaces_img7')['url']; ?>);">
                 <span>Офис</span></div>
                 </a>
               </div>
               <div class="space-grid_row-triple_smol">
                 <a href="http://#" class="space-grid_a">
-                  <div class="box-img" style="background-image: url(https://element1.kz/wp-content/uploads/photo-1532136868905-8094ef8ef5f2-scaled.jpg);">
+                  <div class="box-img" style="background-image: url(<?php echo get_field('spaces_img8')['url']; ?>);">
                 <span>Коммерческие помещения</span></div>
                 </a>
               </div>
             </div>
             <div class="space-grid_row-big">
                 <a href="http://#" class="space-grid_a">
-                  <div class="box-img" style="background-image: url(https://element1.kz/wp-content/uploads/photo-1545256209-0498aac68fae.jpg);">
+                  <div class="box-img" style="background-image: url(<?php echo get_field('spaces_img9')['url']; ?>);">
                 <span>Для наружных работ</span></div>
                 </a>
               </div>
