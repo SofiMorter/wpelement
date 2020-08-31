@@ -7,6 +7,7 @@ Template Name: Каталог-товары
 
 
 <div class="page-content-wrapper">
+<?php woocommerce_content(); ?>
         <button class="tablet-burger-btn">
           Фильтровать
        </button>
