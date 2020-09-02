@@ -21,14 +21,6 @@ get_header( 'shop' );
 
 
 /**
- * Hook: woocommerce_sidebar.
- *
- * @hooked woocommerce_get_sidebar - 10
- */
-do_action( 'woocommerce_sidebar' );	
-
-echo '<main>';
-/**
  * Hook: woocommerce_before_main_content.
  *
  * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
@@ -55,6 +47,15 @@ do_action( 'woocommerce_before_main_content' );
 </header>
 
 <?php
+
+
+/**
+ * Hook: woocommerce_sidebar.
+ *
+ * @hooked woocommerce_get_sidebar - 10
+ */
+do_action( 'woocommerce_sidebar' );	
+
 if ( woocommerce_product_loop() ) {
 
 
@@ -90,8 +91,6 @@ if ( woocommerce_product_loop() ) {
 	 */
 	do_action( 'woocommerce_no_products_found' );
 }
-
-echo '</main>';
 
 /**
  * Hook: woocommerce_after_main_content.
