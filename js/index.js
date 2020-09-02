@@ -74,5 +74,10 @@ if (images && lightboxes) {
 
 const catParents = document.querySelectorAll(".product-categories > .cat-parent");
 if (catParents) {
-  catParents.forEach((parent) => parent.insertAdjacentHTML("afterbegin", '<span class="asterisk">+</span>'));
+  catParents.forEach((parent) => {
+    parent.insertAdjacentHTML("afterbegin", "<span>+</span>");
+    document.querySelector('span').addEventListener('click', (event) => {
+        console.list(event)
+    })
+  });
 }
