@@ -73,7 +73,6 @@ if (images && lightboxes) {
 }
 
 const catParents = document.querySelectorAll(".product-categories > .cat-parent");
-console.log(1, catParents);
 if (catParents) {
-  catParents.forEach((parent) => parent.insertAdjacentHTML("beforebegin", '<span class="asterisk">+</span>'));
+  catParents.forEach((parent) => parent.insertAdjacentHTML("afterbegin", '<span class="asterisk">+</span>'));
 }

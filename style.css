@@ -714,14 +714,6 @@ button {
      position: relative;
 }
 
-.cat-parent:before {
-     content: '+';
-     position: absolute;
-     top: 50%;
-     left: -20px;
-     transform: translateY(-50%);
-}
-
 .cat-parent > .children {
      display: none;
 }
