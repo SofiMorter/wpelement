@@ -732,7 +732,8 @@ button {
 }
 
 .cat-parent.active > .children,
-.current-cat > .children {
+.current-cat > .children,
+.current-cat-parent > .children {
   display: block;
 }
 
