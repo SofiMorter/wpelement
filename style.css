@@ -802,8 +802,9 @@ button {
   font-size: 15px;
   line-height: 19px;
 }
-..catalog-item {
-  padding: 0.5rem;
+.catalog-item {
+  padding: .5rem;
+  border-radius: 15px;
 }
 
 .catalog-item img {
@@ -813,7 +814,6 @@ button {
   max-height: 120px;
   border-radius: 15px;
   object-fit: cover;
-  padding: 1rem;
 }
 
 .catalog-item:hover {
