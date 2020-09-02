@@ -30,32 +30,23 @@ get_header( 'shop' );
 do_action( 'woocommerce_before_main_content' );
 
 ?>
-<header class="woocommerce-products-header">
-	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
-		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
-	<?php endif; ?>
 
-	<?php
-	/**
-	 * Hook: woocommerce_archive_description.
-	 *
-	 * @hooked woocommerce_taxonomy_archive_description - 10
-	 * @hooked woocommerce_product_archive_description - 10
-	 */
-	do_action( 'woocommerce_archive_description' );
-	?>
-</header>
-
-<?php
-
-echo '<div>';
+<div class="catalog-content">
+<?php 
 /**
  * Hook: woocommerce_sidebar.
  *
  * @hooked woocommerce_get_sidebar - 10
  */
 do_action( 'woocommerce_sidebar' );	
+?>
 
+<div class="grid-wrapper">
+<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
+	<h3 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h3>
+<?php endif; ?>
+
+<?php
 if ( woocommerce_product_loop() ) {
 
 
@@ -92,7 +83,7 @@ if ( woocommerce_product_loop() ) {
 	do_action( 'woocommerce_no_products_found' );
 }
 
-echo '</div>';
+echo '</div></div>';
 
 /**
  * Hook: woocommerce_after_main_content.
