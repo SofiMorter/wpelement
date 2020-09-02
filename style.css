@@ -710,6 +710,19 @@ button {
   background: #ede9e0;
 }
 
+.cat-parent:before {
+     content: '+'
+}
+
+.cat-parent > .children {
+     display: none;
+}
+
+.cat-parent.active > .children {
+     display: block;
+}
+
+
 .tab-title {
   display: block;
   background: #ffffff;
