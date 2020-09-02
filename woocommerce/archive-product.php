@@ -48,7 +48,7 @@ do_action( 'woocommerce_before_main_content' );
 
 <?php
 
-
+echo '<div>';
 /**
  * Hook: woocommerce_sidebar.
  *
@@ -91,6 +91,8 @@ if ( woocommerce_product_loop() ) {
 	 */
 	do_action( 'woocommerce_no_products_found' );
 }
+
+echo '</div>';
 
 /**
  * Hook: woocommerce_after_main_content.
