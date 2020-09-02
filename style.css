@@ -719,11 +719,9 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20px;
-  height: 20px;
-  top: 50%;
-  left: -20px;
-  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  left: -30px;
   cursor: pointer;
 }
 
