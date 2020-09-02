@@ -28,7 +28,7 @@
   </head>
   <body>
     <div class="ver-desk">
-     <nav>
+     <nav class="nav">
         <a href="../" class="logo"></a>
         <table class="nav-group">
           <tr>
