@@ -41,7 +41,7 @@ do_action( 'woocommerce_before_main_content' );
 do_action( 'woocommerce_sidebar' );	
 ?>
 
-<div class="grid-wrapper">
+<div class="catalog-wrapper">
 <?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 	<h3 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h3>
 <?php endif; ?>

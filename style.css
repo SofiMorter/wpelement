@@ -655,6 +655,14 @@ button {
      max-width: 100%;
 }
 
+.woocommerce-breadcrumb {
+     text-align: center;
+}
+
+.catalog-wrapper {
+     margin-left: 70px;
+}
+
 .catalog-content {
      display: flex;
      justify-content: center;
