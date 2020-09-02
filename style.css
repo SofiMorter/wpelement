@@ -729,8 +729,8 @@ button {
   height: 30px;
   right: 5px;
   cursor: pointer;
-  color: #9A927D;
-  }
+  color: #9a927d;
+}
 
 .cat-parent > .children {
   display: none;
@@ -802,6 +802,9 @@ button {
   font-size: 15px;
   line-height: 19px;
 }
+..catalog-item {
+  padding: 0.5rem;
+}
 
 .catalog-item img {
   width: 100%;
@@ -813,9 +816,9 @@ button {
   padding: 1rem;
 }
 
-.catalog-item:hover{
+.catalog-item:hover {
   box-shadow: 2px 4px 6px 4px rgba(148, 145, 137, 0.36);
-  transition: .5s ease-in;
+  transition: 0.5s ease;
 }
 
 h3 {
