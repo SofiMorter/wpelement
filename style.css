@@ -714,6 +714,8 @@ button {
   position: relative;
 }
 
+
+
 .cat-parent span {
   position: absolute;
   display: flex;
@@ -729,7 +731,8 @@ button {
   display: none;
 }
 
-.cat-parent.active > .children {
+.cat-parent.active > .children,
+.current-cat > .children {
   display: block;
 }
 
