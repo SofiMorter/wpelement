@@ -37,35 +37,43 @@ if (isMobile.any()) {
 
 const gridWrapper = document.getElementById("grid-wrapper");
 const h2 = document.getElementById("h2");
-h2.style.width = `${gridWrapper.offsetWidth}px`;
+if (h2 && gridWrapper) {
+  h2.style.width = `${gridWrapper.offsetWidth}px`;
+}
 
 const secCatRowWrap = document.getElementById("sec-cat-row-wrap");
 const secCat = document.getElementById("sec-cat");
-secCat.style.width = `${secCatRowWrap.offsetWidth}px`;
+
+if (secCat && secCatRowWrap) {
+  secCat.style.width = `${secCatRowWrap.offsetWidth}px`;
+}
 
 const blogGrid = document.getElementById("blogGrid");
 const blogH2 = document.getElementById("blogH2");
-blogH2.style.width = `${blogGrid.offsetWidth}px`;
+
+if (blogGrid && blogH2) {
+  blogH2.style.width = `${blogGrid.offsetWidth}px`;
+}
 
 let images = document.getElementsByClassName("material-grid-item");
 let lightboxes = document.getElementsByClassName("lightbox");
 
-for (let i = 0; i < images.length; i++) {
-  images[i].addEventListener("click", () => {
-    lightboxes[i].classList.toggle("lightbox-active");
-  });
-}
+if (images && lightboxes) {
+  for (let i = 0; i < images.length; i++) {
+    images[i].addEventListener("click", () => {
+      lightboxes[i].classList.toggle("lightbox-active");
+    });
+  }
 
-for (let lightbox of lightboxes) {
-  lightbox.addEventListener("click", () => {
-    lightbox.classList.toggle("lightbox-active");
-  });
+  for (let lightbox of lightboxes) {
+    lightbox.addEventListener("click", () => {
+      lightbox.classList.toggle("lightbox-active");
+    });
+  }
 }
 
 const catParents = document.querySelectorAll(".product-categories > .cat-parent");
-
-catParents.forEach((parent) => console.log(1,parent))
-for (let parent of catParents) {
-    console.log(2,parent)
-  parent.insertAdjacentHTML("beforebegin", '<span class="asterisk">+</span>');
+console.log(1, catParents);
+if (catParents) {
+  catParents.forEach((parent) => parent.insertAdjacentHTML("beforebegin", '<span class="asterisk">+</span>'));
 }
