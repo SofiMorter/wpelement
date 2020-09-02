@@ -195,3 +195,5 @@ function customtheme_add_woocommerce_support() {
 }
 
 add_action( 'after_setup_theme', 'customtheme_add_woocommerce_support' );
+
+remove_action('woocommerce_after_shop_loop_item','woocommerce_template_loop_add_to_cart')

@@ -44,7 +44,7 @@ do_action( 'woocommerce_before_main_content' );
 	do_action( 'woocommerce_archive_description' );
 	?>
 </header>
-<h1>woocommerce_product_loop</h1>
+
 <?php
 if ( woocommerce_product_loop() ) {
 
@@ -56,7 +56,7 @@ if ( woocommerce_product_loop() ) {
 	 * @hooked woocommerce_catalog_ordering - 30
 	 */
 	do_action( 'woocommerce_before_shop_loop' );
-    ?> <h1>woocommerce_product_loop_start</h1><?php
+  
 	woocommerce_product_loop_start();
 
 	if ( wc_get_loop_prop( 'total' ) ) {
