@@ -713,6 +713,7 @@ button {
 
 .current-cat-parent .current-cat > a {
   color: rgba(154, 146, 125, 0.92);
+  font-weight: bold;
 }
 .cat-parent {
   position: relative;
@@ -725,9 +726,10 @@ button {
   justify-content: center;
   width: 30px;
   height: 30px;
-  left: -30px;
+  right: 5px;
   cursor: pointer;
-}
+  color: #9A927D;
+  }
 
 .cat-parent > .children {
   display: none;
