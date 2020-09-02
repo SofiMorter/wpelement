@@ -64,6 +64,8 @@ for (let lightbox of lightboxes) {
 
 const catParents = document.querySelectorAll(".product-categories > .cat-parent");
 
+catParents.forEach((parent) => console.log(1,parent))
 for (let parent of catParents) {
+    console.log(2,parent)
   parent.insertAdjacentHTML("beforebegin", '<span class="asterisk">+</span>');
 }
