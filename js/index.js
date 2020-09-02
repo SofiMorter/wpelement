@@ -1,26 +1,25 @@
 var isMobile = {
-    Android: function() {
-        return navigator.userAgent.match(/Android/i);
-    },
-    BlackBerry: function() {
-        return navigator.userAgent.match(/BlackBerry/i);
-    },
-    iOS: function() {
-        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-    },
-    Opera: function() {
-        return navigator.userAgent.match(/Opera Mini/i);
-    },
-    Windows: function() {
-        return navigator.userAgent.match(/IEMobile/i);
-    },
-    any: function() {
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-    }
+  Android: function () {
+    return navigator.userAgent.match(/Android/i);
+  },
+  BlackBerry: function () {
+    return navigator.userAgent.match(/BlackBerry/i);
+  },
+  iOS: function () {
+    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+  },
+  Opera: function () {
+    return navigator.userAgent.match(/Opera Mini/i);
+  },
+  Windows: function () {
+    return navigator.userAgent.match(/IEMobile/i);
+  },
+  any: function () {
+    return isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows();
+  },
 };
 
 let body = document.querySelector("body");
-	console.log(body)
 
 if (isMobile.any()) {
   body.classList.add("mobile");
@@ -36,7 +35,6 @@ if (isMobile.any()) {
   });
 }
 
-
 const gridWrapper = document.getElementById("grid-wrapper");
 const h2 = document.getElementById("h2");
 h2.style.width = `${gridWrapper.offsetWidth}px`;
@@ -49,17 +47,23 @@ const blogGrid = document.getElementById("blogGrid");
 const blogH2 = document.getElementById("blogH2");
 blogH2.style.width = `${blogGrid.offsetWidth}px`;
 
-let images = document.getElementsByClassName('material-grid-item');
-let lightboxes = document.getElementsByClassName('lightbox');
+let images = document.getElementsByClassName("material-grid-item");
+let lightboxes = document.getElementsByClassName("lightbox");
 
 for (let i = 0; i < images.length; i++) {
-     images[i].addEventListener('click', () => {
-          lightboxes[i].classList.toggle('lightbox-active');
-     });
+  images[i].addEventListener("click", () => {
+    lightboxes[i].classList.toggle("lightbox-active");
+  });
 }
 
 for (let lightbox of lightboxes) {
-     lightbox.addEventListener('click', () => {
-          lightbox.classList.toggle('lightbox-active');
-     });
+  lightbox.addEventListener("click", () => {
+    lightbox.classList.toggle("lightbox-active");
+  });
+}
+
+const catParents = document.querySelectorAll(".product-categories > .cat-parent");
+
+for (let parent of catParents) {
+  parent.insertAdjacentHTML("beforebegin", '<span class="asterisk">+</span>');
 }
