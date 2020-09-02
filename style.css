@@ -706,15 +706,17 @@ button {
 }
 
 .product-categories > .cat-item:hover > a,
-.product-categories > .current-cat > a {
+.product-categories > .current-cat > a,
+.product-categories > .current-cat-parent > a {
   background: #ede9e0;
 }
 
+.current-cat-parent .current-cat > a {
+  color: rgba(154, 146, 125, 0.92);
+}
 .cat-parent {
   position: relative;
 }
-
-
 
 .cat-parent span {
   position: absolute;
