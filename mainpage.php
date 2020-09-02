@@ -156,7 +156,7 @@ Template Name: Главная
                     </div>
                     <!-- /.tab -->
 
-                    <a href="#"><button type="button" name="button">В каталог</button></a>
+                    <a href="../catalog/"><button type="button" name="button">В каталог</button></a>
                 </div>
                 <!-- /.cat-list-wrap -->
 
