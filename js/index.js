@@ -76,8 +76,8 @@ const catParents = document.querySelectorAll(".product-categories > .cat-parent"
 if (catParents) {
   catParents.forEach((parent) => {
     parent.insertAdjacentHTML("afterbegin", "<span>+</span>");
-    document.querySelector('span').addEventListener('click', (event) => {
-        console.list(event)
-    })
+    document.querySelector("span").addEventListener("click", () => {
+      parent.classList.toggle("active");
+    });
   });
 }
