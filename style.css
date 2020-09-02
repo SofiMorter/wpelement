@@ -810,10 +810,12 @@ button {
   max-height: 120px;
   border-radius: 15px;
   object-fit: cover;
+  padding: 1rem;
 }
 
 .catalog-item:hover{
   box-shadow: 2px 4px 6px 4px rgba(148, 145, 137, 0.36);
+  transition: .5s ease-in;
 }
 
 h3 {
