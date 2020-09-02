@@ -706,7 +706,7 @@ button {
 }
 
 .product-categories > .cat-item:hover > a,
-.product-categories > .cat-item.current-cat > a {
+.product-categories > .current-cat > a {
   background: #ede9e0;
 }
 
