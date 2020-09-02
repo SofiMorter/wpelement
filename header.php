@@ -29,12 +29,12 @@
   <body>
     <div class="ver-desk">
      <nav class="nav">
-        <a href="../" class="logo"></a>
+        <a href="/" class="logo"></a>
         <table class="nav-group">
           <tr>
-            <td class="nav-item"><a href="../spaces">Пространства</a></td>
-            <td class="nav-item"><a href="../partnership">Сотрудничество</a></td>
-            <td class="nav-item"><a href="../contacts">О нас</a></td>
+            <td class="nav-item"><a href="spaces/">Пространства</a></td>
+            <td class="nav-item"><a href="partnership/">Сотрудничество</a></td>
+            <td class="nav-item"><a href="contacts/">О нас</a></td>
             <td class="nav-item"><a href="tel:+7(778)784-79-97">+7&nbsp;(778)&nbsp;784-79-97</a></td>
             <td>
               <a href="https://wa.me/77787847997"><i class="fab fa-whatsapp"></i></a>
