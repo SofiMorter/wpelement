@@ -1406,6 +1406,7 @@ input {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0 100px;
+  margin-bottom: 100px;
 }
 
 .single-product {
