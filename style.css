@@ -817,7 +817,7 @@ button {
 }
 
 .catalog-item:hover {
-  box-shadow: 2px 4px 6px 4px rgba(148, 145, 137, 0.36);
+  box-shadow: 1px 1px 6px rgba(125, 125, 125, 0.19);
   transition: 0.5s ease;
 }
 
