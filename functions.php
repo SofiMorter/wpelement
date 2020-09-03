@@ -197,3 +197,7 @@ function customtheme_add_woocommerce_support() {
 add_action( 'after_setup_theme', 'customtheme_add_woocommerce_support' );
 
 remove_action('woocommerce_after_shop_loop_item','woocommerce_template_loop_add_to_cart');
+remove_all_actions('woocommerce_single_product_summary');
+add_action('woocommerce_single_product_summary', 'woocommerce_template_single_title');
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs' );
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_display' );

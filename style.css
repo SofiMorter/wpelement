@@ -803,7 +803,7 @@ button {
   line-height: 19px;
 }
 .catalog-item {
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 15px;
 }
 
@@ -1402,6 +1402,114 @@ input {
   text-shadow: 3px 3px 8px #4f4f4f;
 }
 
+.grid-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 100px;
+}
+
+.single-product {
+  margin-top: 100px;
+}
+
+.single-product .woocommerce-breadcrumb {
+  text-align: left;
+  margin-left: 120px;
+  margin-bottom: 40px;
+}
+.single-product .woocommerce-breadcrumb a {
+  font-size: 20px;
+  color: rgba(79, 79, 79, 0.51);
+}
+
+.product-summary p {
+  font-size: 14px;
+  color: #4f4f4f;
+  margin-left: 120px;
+}
+
+section.related.products {
+  grid-column: 1/3;
+  margin-top: 100px;
+  margin-left: 120px;
+}
+
+section.related.products > h2 {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(154, 146, 125, 0.92);
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+section.related.products .woocommerce-loop-product__title {
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+figure.woocommerce-product-gallery__wrapper {
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 20px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+figure.woocommerce-product-gallery__wrapper > div:first-child {
+  grid-column: 2;
+  grid-row: 1/4;
+  display: flex;
+  justify-content: center;
+}
+
+figure.woocommerce-product-gallery__wrapper > div:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+figure.woocommerce-product-gallery__wrapper > div:not(:first-child) img {
+  border-radius: 10px;
+}
+
+h1.product_title.entry-title {
+  font-weight: bold;
+  font-size: 36px;
+  color: #4f4f4f;
+  margin-top: 0;
+}
+
+.woocommerce-product-attributes-item__label {
+  border-right: 4px solid #ededed;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(154, 146, 125, 0.92);
+  text-align: left;
+  padding-right: 50px;
+}
+
+.woocommerce-product-attributes-item__value {
+  max-width: 250px;
+  font-size: 18px;
+  color: #4f4f4f;
+  padding: 5px 15px;
+}
+
+.woocommerce-product-attributes-item__value p {
+  margin: 0;
+}
+/* table {
+  border-collapse: collapse;
+}
+
+td {
+  height: 30px;
+  padding: 15px 15px;
+} */
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
 
 @media screen and (max-width: 600px) {
