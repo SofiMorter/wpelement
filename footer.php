@@ -21,6 +21,7 @@
         </div>
         <div class="footer-last-line">
           <p>ТОО ELEMENT1 2020г. Все права защищены.</p>
+          <p>Сделано в <a href="https:\\mpr.kz">mpr.kz</a></p>
         </div>
       </footer>
       <!-- ver-desk -->

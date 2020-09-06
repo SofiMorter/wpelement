@@ -82,3 +82,11 @@ if (catParents) {
     });
   });
 }
+
+$('.fotorama1').fotorama({
+  width: '100%',
+  maxwidth: '100%',
+  ratio: 16/9,
+  allowfullscreen: true,
+  nav: 'thumbs'
+});

@@ -10,16 +10,15 @@ Template Name: Главная
             <div class="block-bg"></div>
             <div class="block-content">
                 <h2>
-                <?php the_field('заголовок_главной'); ?>
+                    <?php the_field('заголовок_главной'); ?>
                 </h2>
-               
+
                 <p>
-                <?php the_field('описание2_главной'); ?>
+                    <?php the_field('описание2_главной'); ?>
                 </p>
             </div>
         </div>
-        <div class="fotorama interior-block" data-width="1200" data-height="650" data-autoplay="true" data-loop="true"
-            data-arrows="false" data-click="true" data-swipe="true" nav: 'false' data-fit="cover">
+        <div class="fotorama interior-block" data-width="1200" data-height="650" data-autoplay="true" data-loop="true" data-arrows="false" data-click="true" data-swipe="true" nav: 'false' data-fit="cover">
             <img src="<?php echo get_field('image1')['url']; ?>" alt="">
             <img src="<?php echo get_field('image2')['url']; ?>" alt="">
             <img src="<?php echo get_field('image3')['url']; ?>" alt="">
@@ -115,7 +114,7 @@ Template Name: Главная
                         <input type="radio" id="tab3" name="qwe" />
                         <label for="tab3" class="tab-title">Декоративные краски</label>
                         <div class="tab-content">
-                           <p><?php the_field('imitation3'); ?></p>
+                            <p><?php the_field('imitation3'); ?></p>
                         </div>
                     </div>
                     <!-- /.tab -->

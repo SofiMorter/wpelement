@@ -395,7 +395,8 @@ ul > li {
   border-radius: 10px 10px 0px 0px;
 }
 
-.cat-list-wrap button {
+.cat-list-wrap button,
+.prods button {
   border-style: none;
   outline: none;
   width: 11.2888rem;
@@ -529,6 +530,9 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* position: fixed; */
+  width: 100%;
+  bottom: 0;
 }
 
 footer h2 {
@@ -801,10 +805,13 @@ button {
   font-weight: 500;
   font-size: 15px;
   line-height: 19px;
+  white-space: normal;
 }
 .catalog-item {
+  display: flex;
   padding: 0.5rem;
   border-radius: 15px;
+  background-color: white;
 }
 
 .catalog-item img {
@@ -1316,14 +1323,16 @@ input {
 
 .spaces-first {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.spaces-first div {
+.spaces-first div,
+.space-page-sec > h3 {
   font-size: 3rem;
   color: #9a927d;
   font-weight: 600;
+  max-width: 40%;
+  line-height: inherit;
 }
 .spaces-first ul {
   width: 40%;
@@ -1511,6 +1520,56 @@ td {
   height: 30px;
   padding: 15px 15px;
 } */
+
+.space-header-img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.space-slider {
+  /* width: 700px; */
+  height: auto;
+}
+
+.space-page-p {
+  /* width: 30%; */
+  max-width: 40%;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  padding: 0 5rem;
+  text-align: justify;
+}
+
+.space-page-sec {
+  display: flex;
+  justify-content: space-around;
+  margin: 75px auto;
+}
+
+.fotorama1 {
+  width: 50%;
+}
+
+.prods {
+  background-color: #f3f2ef;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prods > h3 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #4f4f4f;
+  width: 100%;
+  text-align: center;
+}
+
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
 
 @media screen and (max-width: 600px) {
