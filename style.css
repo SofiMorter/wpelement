@@ -1614,7 +1614,7 @@ td {
 }
 
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
-
+/* 
 @media screen and (max-width: 600px) {
   .ver-mob {
     display: flex;
@@ -1624,4 +1624,4 @@ td {
   .ver-desk {
     display: none;
   }
-}
+} */
