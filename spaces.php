@@ -16,9 +16,9 @@ Template Name: Пространства
       <li><a href="http://element1.kz/spaces/gostinaya/">Гостиная</a></li>
       <li><a href="http://element1.kz/spaces/bedroom/">Спальня</a></li>
       <li><a href="http://element1.kz/spaces/detskaya/">Детская</a></li>
-      <li><a href="http://element1.kz/spaces/vannaya/">Ванная комната</a></li>
-      <li><a href="http://element1.kz/spaces/kuhnya/">Кухня</a></li>
-      <li><a href="http://element1.kz/spaces/garazh/">Гараж</a></li>
+      <li><a href="http://element1.kz/spaces/bathroom/">Ванная комната</a></li>
+      <li><a href="http://element1.kz/spaces/kitchen/">Кухня</a></li>
+      <li><a href="http://element1.kz/spaces/restaurants/">Гараж</a></li>
       <li><a href="http://element1.kz/spaces/ofis/">Офис</a></li>
       <li><a href="http://element1.kz/spaces/kommercheskie-pomeshheniya/">Коммерческие помещения</a></li>
       <li><a href="http://element1.kz/spaces/fasady/">Для наружных работ</a></li>
@@ -46,7 +46,7 @@ Template Name: Пространства
           </a>
         </div>
         <div class="space-grid_row-triple_smol">
-          <a href="http://element1.kz/spaces/vannaya/" class="space-grid_a">
+          <a href="http://element1.kz/spaces/bathroom/" class="space-grid_a">
             <div class="box-img" style="background-image: url(<?php echo get_field('spaces_img4')['url']; ?>);">
               <span>Ванная комната</span></div>
           </a>
@@ -54,7 +54,7 @@ Template Name: Пространства
       </div>
     </div>
     <div class="space-grid_row">
-      <a href="http://element1.kz/spaces/kuhnya" class="space-grid_a">
+      <a href="http://element1.kz/spaces/kitchen/" class="space-grid_a">
         <div class="box-img" style="background-image: url(<?php echo get_field('spaces_img5')['url']; ?>);">
           <span>Кухня</span></div>
       </a>
@@ -75,7 +75,7 @@ Template Name: Пространства
           </a>
         </div>
         <div class="space-grid_row-triple_smol">
-          <a href="http://element1.kz/spaces/kommercheskie-pomeshheniya/" class="space-grid_a">
+          <a href="http://element1.kz/spaces/restaurants/" class="space-grid_a">
             <div class="box-img" style="background-image: url(<?php echo get_field('spaces_img8')['url']; ?>);">
               <span>Коммерческие помещения</span></div>
           </a>
