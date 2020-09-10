@@ -154,12 +154,16 @@ function wpelementcore_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-/**
- подключаем скрипты и стили фоторамы
- */
+/** подключаем скрипты и стили фоторамы */
+
 wp_enqueue_style( 'fotorama', get_template_directory_uri() . '//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css');
 wp_enqueue_script( 'fotorama', get_template_directory_uri() .'//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js');
 
+
+/** подключаем скрипты и стили бутстрапа */
+
+
+wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/bootstrap-grid.css');
 
 add_action( 'wp_enqueue_scripts', 'wpelementcore_scripts' );
 

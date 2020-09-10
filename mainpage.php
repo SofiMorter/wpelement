@@ -4,8 +4,9 @@ Template Name: Главная
 */
 ?>
 <?php get_header(); ?>
-<div class="container1440 mt-100">
-    <section class="sec-hat">
+<div class="container">
+<div class="row">
+    <section class="sec-hat col-sm-12">
         <div class="block">
             <div class="block-bg"></div>
             <div class="block-content">
@@ -27,7 +28,9 @@ Template Name: Главная
         </div>
     </section>
 </div>
-<div class="container1440">
+<!-- row -->
+</div>
+
     <section class="ourmaterials-grid">
         <h2 id="h2">Использование наших материалов в стилях интерьера</h2>
         <div class="grid-wrapper" id="grid-wrapper">
@@ -69,21 +72,10 @@ Template Name: Главная
             <div style="background: url(<?php echo get_field('style_img6')['url']; ?>);" class="lightbox"></div>
         </div>
     </section>
-</div>
-<!-- <section class="sec-desc">
-          <div class="sec-desc_img"></div>
-          <div class="sec-desc-txt">
-            <h2>Для уникальных решений</h2>
-            <p>
-              В нашем магазине вы найдете все для своего ремонта. Подбериет универсальное белое покрытие и покрасьте его в <b>любой цвет</b>, сделайте
-              штукатурку с эффетом мрамора или шелка. <b>Коммерческие</b> покрытия и технологически выверенные м тоды нанесения позволят вам не
-              сомневаться в приобретаемом сырье.
-            </p>
-            <a href="#"><button type="button" name="button">Узнать</button></a>
-          </div>
-        </section> -->
-<div class="contanier100p bg-gray">
-    <div class="container1440">
+
+
+
+
         <section class="sec-cat">
             <h2 id="sec-cat">Имитация различных эффектов в интерьере</h2>
 
@@ -202,9 +194,8 @@ Template Name: Главная
             </div>
             <!-- /.se-sat-row-wrap -->
         </section>
-    </div>
-</div>
-<div class="container1440">
+    
+
     <section class="sec-pref">
         <!-- <div class="block-pref"> -->
         <div class="block-desc_img">
@@ -222,8 +213,8 @@ Template Name: Главная
             </ul>
         </div>
     </section>
-</div>
-<div class="container1440 mb-100">
+
+
     <section class="sec-blog">
         <h2 id="blogH2">Полезные статьи и советы мастеров</h2>
         <div class="blog-grid" id="blogGrid">
@@ -254,5 +245,5 @@ Template Name: Главная
         </div>
         <!-- blog-grid -->
     </section>
-</div>
+
 <?php get_footer(); ?>
