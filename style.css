@@ -99,9 +99,7 @@ ul > li {
   display: -ms-flex;
   display: flex;
   justify-content: space-around;
-  margin: 1rem 0 0;
 }
-
 .logo {
   width: 135px;
   background-image: url(https://element1.kz/wp-content/uploads/Element-transparent.png);
@@ -114,6 +112,7 @@ ul > li {
 .nav-items-wrapper {
   display: flex;
   align-items: center;
+  margin: 20px 0;
 }
 
 .nav-item {
